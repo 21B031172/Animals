@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+a,li,ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-size: 1rem;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+button{
+    background-color: #B3D2B2;
+    border: 0;
+    padding: 10px;
+    border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+}
+button:hover{
+    transition: 0.5s;
+    color: white;
+}
+.login{
+    margin: 0.8vw;
+}
+.logo{
+    cursor: pointer;
+    width: 3vw;
+}
+
+a{
+    color: #386641;
+}
+h1{
+    font-size: 3rem;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5vw;
+}
+.mainback{
+    background-image: linear-gradient(to right, #3CA55C, #B5AC49);
+
+}
+.mainmenulol ul li{
+    display: inline-block;
+}
+.mainmenulol ul a li{
+    margin: 1vw;
+    transition: all 0.3s ease 0s;
+}
+.mainmenulol ul a li:hover{
+    color: #386641;
+}
+.info1,.info2,.info3{
+    width: 29vw;
+}
+.img2,.img1,.img3{
+    border-radius: 10vw;
+    height: 26vw;
+    animation: animpar;
+}
+.maininfo{
+    width: 25vw;
+    margin-right:7vw;
+    animation-name: mainanim;
+    animation-duration: 2s;
+}
+.Firstpar,.Secondpar,.Thirdpar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8vw;
+    animation-name: animpar;
+    animation-duration: 1s;
+    
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation-name: sheepanim;
+    animation-duration: 2s;
+}
+
+
+.chicken{
+    height: 6vw;
+    transform: rotate(289deg);
+}
+.sheep{
+    height: 6vw;
+    transform: rotate(36deg);
+}
+.cow{
+    height: 6vw;
+    transform: rotate(36deg);
+}
+.dog{
+    height: 6vw;
+    transform: rotate(337deg);
+}
+.horse{
+    height: 6vw;
+    transform: rotate(45deg);
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+}
+.images2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+.logodiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+.logodiv h2{
+    position: relative;
+    top: 0.5vw;
+}
+footer{
+    background-color: black; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    padding: 2vw;
+}
+.minilogo{
+    width: 10vw;
+}
+footer a{
+    color: white;
+    margin: 2vw;
+}
+.socialmedia{
+    width: 2.5vw;
+    margin: 1vw;
+}
+.sm{
+    display: flex;
+}
+
+@keyframes animpar {
+    0%{
+        opacity: 0%;
+        margin: 6vw;
+    }
+    100%{
+        opacity: 100%;
+        margin: 8vw;
+    }
+}
+@keyframes sheepanim {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+@keyframes mainanim {
+    0%{
+        opacity: 0;
+        margin-right: 0vw;
+    }
+    100%{
+        opacity: 100%;
+        margin-right: 7vw;
+    }
+}

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to right, #3CA55C, #B5AC49);
+}
+.mainmenulol ul li{
+    display: inline-block;
+}
+.mainmenulol ul a li{
+    margin: 1vw;
+    transition: all 0.3s ease 0s;
+}
+.mainmenulol ul a li:hover{
+    color: #386641;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5vw;
+    background-color: white;
+}
+a{
+    color: #386641;
+}
+button:hover{
+    transition: 0.5s;
+    
+    color: white;
+}
+h1{
+    font-size: 2rem;
+    
+}
+.logo{
+    cursor: pointer;
+    width: 3vw;
+}
+button{
+    background-color: #B3D2B2;
+    border: 0;
+    padding: 10px;
+    border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.logodiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+.logodiv h2{
+    position: relative;
+    top: 0.5vw;
+}
+.login{
+    margin: 0.8vw;
+}
+.about{
+    margin: 8vw;
+
+}
+img{
+    margin: 2vw;
+}
+footer{
+    margin-top: 3vw;
+    background-color: black; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    padding: 2vw;
+}
+.minilogo{
+    width: 10vw;
+}
+footer a{
+    color: white;
+    margin: 2vw;
+}
+.socialmedia{
+    width: 2.5vw;
+    margin: 1vw;
+}
+.sm{
+    display: flex;
+}

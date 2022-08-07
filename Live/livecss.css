@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to right, #3CA55C, #B5AC49);
+    
+}
+.mainmenulol ul li{
+    display: inline-block;
+}
+.mainmenulol ul a li{
+    margin: 1vw;
+    transition: all 0.3s ease 0s;
+}
+.mainmenulol ul a li:hover{
+    color: #386641;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5vw;
+    background-color: white;
+}
+a{
+    color: #386641;
+}
+button:hover{
+    transition: 0.5s;
+    
+    color: white;
+}
+h1{
+    font-size: 2rem;
+    
+}
+.login{
+    margin: 0.8vw;
+}
+.logo{
+    cursor: pointer;
+    width: 3vw;
+}
+p{
+    font-size: 1rem;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+button{
+    background-color: #B3D2B2;
+    border: 0;
+    padding: 10px;
+    border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.logodiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+.logodiv h2{
+    position: relative;
+    top: 0.5vw;
+}
+.stream1,.stream2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vw;
+    flex-direction: row;
+    animation-name: paranim;
+    animation-duration: 2s;
+}
+.par1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 32vw;
+    margin-left: 5vw;
+}
+.par2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35vw;
+    flex-direction: column;
+    margin-right: 5vw;
+}
+.events{
+    display: flex;
+    justify-content: center;
+    margin: 3vw;
+}
+
+footer{
+    margin-top: 3vw;
+    background-color: black; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    padding: 2vw;
+}
+.minilogo{
+    width: 10vw;
+}
+footer a{
+    color: white;
+    margin: 2vw;
+}
+.socialmedia{
+    width: 2.5vw;
+    margin: 1vw;
+}
+.sm{
+    display: flex;
+}
+@keyframes paranim {
+    0%{
+        margin-right: 2vw;
+        opacity: 0;
+    }
+    100%{
+        opacity: 100%;
+        margin-right: 0vw;
+    }
+}
